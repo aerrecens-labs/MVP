@@ -1,0 +1,64 @@
+# --- SECRETS & KEYS (The "Never-Push" List) ---
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+keystore
+secret.json
+credentials.json
+
+# --- PYTHON (FastAPI / AI Backend) ---
+__pycache__/
+*.py[cod]
+*$py.class
+.python-version
+.venv
+venv/
+ENV/
+build/
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# --- BLOCKCHAIN (Foundry / Hardhat) ---
+out/
+cache/
+artifacts/
+broadcast/
+cache_forge/
+
+# --- FRONTEND (React / Next.js) ---
+node_modules/
+.next/
+out/
+build/
+.vercel
+.turbo
+*.tsbuildinfo
+
+# --- LOGS & DIAGNOSTICS ---
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+_research/
+
+# --- SYSTEM & EDITORS ---
+/_research/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
